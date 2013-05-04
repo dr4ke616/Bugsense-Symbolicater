@@ -5,7 +5,7 @@ Small tool that takes iOS crash logs from BugSense and symbolicates them to huma
 You should note that you must use the dSYM file that was generated when building the build that is causeing the crashes, otherwise it will not work.
 
 How to use:
-- Copy the crash report from BugSense (ensuring you copy the raw text) and paste it in the bugsense.txt file.
+- Copy the crash report from BugSense (ensuring you copy the raw text) and paste it in the "put_bugsense_crash_here.txt" file.
 - Run the python script, you can either provide the path to the dSYM file or copy the dSYM file in the "put_dSYM_here" directory
 - It will then output the human readable report.
 

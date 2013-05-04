@@ -26,7 +26,7 @@ def get_args(argv):
 
 def parse_file():
     if os.path.exists(HERE):
-    	file_name = os.path.join(HERE, 'bugsense.txt')
+    	file_name = os.path.join(HERE, 'put_bugsense_crash_here.txt')
     	with open(file_name) as f:
     		contents = f.readlines()
     else:
@@ -41,7 +41,7 @@ def parse_file():
     if len(list_of_symbols) != 0:
     	return list_of_symbols
     else:
-		print "No data detected in bugsense.txt file"
+		print "No data detected in put_bugsense_crash_here.txt file"
 		return None
 
 def symbolicate(list_of_symbols, path_to_dsym):
