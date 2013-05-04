@@ -7,6 +7,7 @@ You should note that you must use the dSYM file that was generated when building
 How to use:
 - Copy the crash report from BugSense (ensuring you copy the raw text) and paste it in the bugsense.txt file.
 - Run the python script, ensure you provide the path to the dSYM file.
+- Usage: python Symbolicate.py FILE_DIR
 - It will then output the human readable report.
 
 Wherw to get dSYM file:
@@ -16,7 +17,7 @@ Wherw to get dSYM file:
 - Ensure you select the same build that is causing the crashes.
 - Right click the build and click "Show in Finder".
 - Right click the build and click "Show package contents".
-- Go into the "dSYMs". Inside it will be a file called <AppName>.app.dSYM.
+- Go into the "dSYMs" folder. Inside it will be a file called [AppName].app.dSYM.
 - Make note of the file path to this file (or just copy it to somewhere that is easier to access).
 - You now have the necessary file, you can run the Python script now.
 
