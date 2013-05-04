@@ -1,0 +1,14 @@
+0 ??? 0x2fe0f080 0x0 + 0
+1 ??? 0x2fe10b07 0x0 + 0
+2 libdyld.dylib 0x33f35455 _Z21_dyld_fast_stub_entryPvl + 36
+3 libdyld.dylib 0x33f3537c dyld_stub_binder + 20
+4 MakeALevel 0x001e887d _ZN5boost16exception_detail20copy_boost_exceptionEPNS_9exceptionEPKS1_ + 1008068
+5 MakeALevel 0x001e3b0d _ZN5boost16exception_detail20copy_boost_exceptionEPNS_9exceptionEPKS1_ + 988244
+6 MakeALevel 0x001d27db _ZN5boost16exception_detail20copy_boost_exceptionEPNS_9exceptionEPKS1_ + 917794
+7 MakeALevel 0x001d6617 _ZN5boost16exception_detail20copy_boost_exceptionEPNS_9exceptionEPKS1_ + 933726
+8 MakeALevel 0x001e05ef _ZN5boost16exception_detail20copy_boost_exceptionEPNS_9exceptionEPKS1_ + 974646
+9 MakeALevel 0x001e102d _ZN5boost16exception_detail20copy_boost_exceptionEPNS_9exceptionEPKS1_ + 977268
+10 MakeALevel 0x001ddedd _ZN5boost16exception_detail20copy_boost_exceptionEPNS_9exceptionEPKS1_ + 964644
+11 MakeALevel 0x000eb799 _mh_execute_header + 903065
+12 MakeALevel 0x000eb4dd _mh_execute_header + 902365
+13 libsystem_c.dylib 0x35efb311 _pthread_start + 248
