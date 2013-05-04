@@ -38,7 +38,11 @@ def parse_file():
     	line = line.split()
     	list_of_symbols.append(line[2])
 
-    return list_of_symbols
+    if len(list_of_symbols) != 0:
+    	return list_of_symbols
+    else:
+		print "No data detected in bugsense.txt file"
+		return None
 
 def symbolicate(list_of_symbols, path_to_dsym):
 	req_file = 'Contents/Resources/DWARF'
@@ -79,12 +83,10 @@ def __main__(argv):
 	path_to_dsym = get_args(argv)
 	symbols = parse_file()
 
-	if len(symbols) != 0:
+	if symbols != None:
 		result = symbolicate(list_of_symbols = symbols, path_to_dsym = path_to_dsym)
 		if result != None:
 			display_results(result)
-	else:
-		print "No data detected in bugsense.txt file"
 
 
 if __name__ == '__main__':
