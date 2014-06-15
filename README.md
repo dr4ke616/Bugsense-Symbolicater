@@ -9,7 +9,7 @@ How to use:
 - Run the python script, you can either provide the path to the dSYM file or copy the dSYM file in the "put_dSYM_here" directory
 - It will then output the human readable report.
 
-Wherw to get dSYM file:
+Where to get dSYM file:
 - Open Xcode and go to the organiser.
 - Go to the Archives tab.
 - You will be presented with the list of archived builds (provided that you have any).
